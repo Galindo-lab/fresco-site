@@ -1,0 +1,13 @@
+{
+    "proyectName": "Test site",    
+    "inputFolder": "./content",    
+    "outputFolder": "./static",        
+    "templatesFolder": "./templates", 
+    "defaultTemplate": "root.html",
+    
+    "published-sections": [
+        "info"
+    ],
+    "unpublished-sections": [
+    ]
+}
