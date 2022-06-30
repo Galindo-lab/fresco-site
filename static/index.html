@@ -1,117 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content=
-  "width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#000000">
-  <link rel="stylesheet" href="style/style.css">
-  <link rel="icon" type="image/x-icon" href=
-  "./img/fresco-icon.png">
-  <title>Frente Estudiantil de Cooperación</title>
-</head>
-<body>
-  <header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="icon" type="image/x-icon" href="./img/fresco-icon.png" />
+    <title>Frente Estudiantil de Cooperación</title>
+  </head>
+  <body>
+    <nav>
+      <div class="container">
+        <a href="index.html"><img width="120" src="./img/banner.png" /></a>
 
-    <div class="center" style="width: 100%; max-width: 900px; display: flex; align-items: center; margin: auto;">
-    <a href="index.html"><img width="120" src="./img/banner.png"></a>
+        <div class="contact">
+          <a href="./info/00;00;00-Contacto-FRESCO.html"
+            ><img width="30" src="./img/contact.png" style="filter: invert(1)"
+          /></a>
+        </div>
+      </div>
+    </nav>
 
-    <div class="contact">
-      <a href="./not_found.html"><img width="30" src="./img/contact.png"
-      style="filter: invert(1);"></a>
-    </div>
-    </div>
-   
-    
-  </header>
+    <section>
 
-  
-  <section>
-    <h1>Overview</h1>
-    <h2>Philosophy</h2>
-    <p>Markdown is intended to be as easy-to-read and easy-to-write
-    as is feasible.</p>
-    <p>Readability, however, is emphasized above all else. A
-    Markdown-formatted document should be publishable as-is, as
-    plain text, without looking like it's been marked up with tags
-    or formatting instructions. While Markdown's syntax has been
-    influenced by several existing text-to-HTML filters --
-    including <a href=
-    "http://docutils.sourceforge.net/mirror/setext.html">Setext</a>,
-    <a href="http://www.aaronsw.com/2002/atx/">atx</a>, <a href=
-    "http://textism.com/tools/textile/">Textile</a>, <a href=
-    "http://docutils.sourceforge.net/rst.html">reStructuredText</a>,
-    <a href=
-    "http://www.triptico.com/software/grutatxt.html">Grutatext</a>,
-    and <a href="http://ettext.taint.org/doc/">EtText</a> -- the
-    single biggest source of inspiration for Markdown's syntax is
-    the format of plain text email.</p>
-    <h2>Block Elements</h2>
-    <h3>Paragraphs and Line Breaks</h3>
-    <p>A paragraph is simply one or more consecutive lines of text,
-    separated by one or more blank lines. (A blank line is any line
-    that looks like a blank line -- a line containing nothing but
-    spaces or tabs is considered blank.) Normal paragraphs should
-    not be indented with spaces or tabs.</p>
-    <p>The implication of the "one or more consecutive lines of
-    text" rule is that Markdown supports "hard-wrapped" text
-    paragraphs. This differs significantly from most other
-    text-to-HTML formatters (including Movable Type's "Convert Line
-    Breaks" option) which translate every line break character in a
-    paragraph into a <code>&lt;br /&gt;</code> tag.</p>
-    <p>When you <em>do</em> want to insert a <code>&lt;br
-    /&gt;</code> break tag using Markdown, you end a line with two
-    or more spaces, then type return.</p>
-    <h3>Headers</h3>
-    <p>Markdown supports two styles of headers, [Setext] [1] and
-    [atx] [2].</p>
-    <p>Optionally, you may "close" atx-style headers. This is
-    purely cosmetic -- you can use this if you think it looks
-    better. The closing hashes don't even need to match the number
-    of hashes used to open the header. (The number of opening
-    hashes determines the header level.)</p>
-    <h3>Blockquotes</h3>
-    <p>Markdown uses email-style <code>&gt;</code> characters for
-    blockquoting. If you're familiar with quoting passages of text
-    in an email message, then you know how to create a blockquote
-    in Markdown. It looks best if you hard wrap the text and put a
-    <code>&gt;</code> before every line:</p>
-    <blockquote>
-      <p>This is a blockquote with two paragraphs. Lorem ipsum
-      dolor sit amet, consectetuer adipiscing elit. Aliquam
-      hendrerit mi posuere lectus. Vestibulum enim wisi, viverra
-      nec, fringilla in, laoreet vitae, risus.</p>
-      <p>Donec sit amet nisl. Aliquam semper ipsum sit amet velit.
-      Suspendisse id sem consectetuer libero luctus adipiscing.</p>
-    </blockquote>
-    <p>Markdown allows you to be lazy and only put the
-    <code>&gt;</code> before the first line of a hard-wrapped
-    paragraph:</p>
-    <blockquote>
-      <p>This is a blockquote with two paragraphs. Lorem ipsum
-      dolor sit amet, consectetuer adipiscing elit. Aliquam
-      hendrerit mi posuere lectus. Vestibulum enim wisi, viverra
-      nec, fringilla in, laoreet vitae, risus.</p>
-      <p>Donec sit amet nisl. Aliquam semper ipsum sit amet velit.
-      Suspendisse id sem consectetuer libero luctus adipiscing.</p>
-    </blockquote>
-    <p>Blockquotes can be nested (i.e. a
-    blockquote-in-a-blockquote) by adding additional levels of
-    <code>&gt;</code>:</p>
-    <blockquote>
-      <p>This is the first level of quoting.</p>
-      <blockquote>
-        <p>This is nested blockquote.</p>
-      </blockquote>
-      <p>Back to the first level.</p>
-    </blockquote>
-    <p>Blockquotes can contain other Markdown elements, including
-    headers, lists, and code blocks:</p>
-  </section>
-  <footer>
-    <img width="100" src="./img/fresco-title.png"><br>
-    <a href="#">About us</a> · <a href="#">Biblioteca</a> ·
-    <a href="#">Noticias</a>
-  </footer>
-</body>
+
+      <h1>Minutas</h1>
+      <ul>
+        <li>
+          <a href="./minutas/29;06;2022-junta 12 de junio del 2022-Galindo.html"
+            >junta 12 de junio del 2022</a
+          >
+        </li>
+        <li>
+          <a
+            href="./minutas/19:06;2022-junta de 19 del junio de 2022-Christopher.html"
+            >junta 19 de junio del 2022</a
+          >
+        </li>
+      </ul>
+
+      
+      <h1>¿Qué es el FRESCO?</h1>
+      <p>
+        El Frente Estudiantil de Cooperación es una organización estudiantil
+        amplia cuyo propósito es concientizar, reunir y preparar a las y los
+        estudiantes de Baja California para defender sus derechos ya ganados y
+        conquistar los deseados. Fue fundado tras el Día del Estudiante (23 de
+        mayo) 2022, día en que estudiantes y egresadas de UABC, ya con la
+        participación de estudiantes de otras escuelas, se manifestaron por la
+        gratuidad educativa, la democracia universitaria, el combate al machismo
+        y otras exigencias. Conscientes de la necesidad de continuar
+        organizándose y evitar la disolución que amenaza a los movimientos
+        sociales, se propuso crear un grupo de redes sociales por donde
+        comunicarnos. De ese grupo surgió nuestro Frente, que se rige
+        democráticamente por la asamblea de las personas estudiantes y egresadas
+        que participan en el.
+      </p>
+
+      <img alt="" src="./img/portada.jpg" />
+
+      <h2>¿Quién puede unirse?</h2>
+      
+      <p>
+        Cualquier persona estudiante o egresada de cualquier institución
+        educativa de cualquier parte de Baja California esta invitada a unirse
+        al FRESCO. Solo se excluyen a personas con conductas antisociales o que
+        estén al servicio de enemigos de las y los estudiantes.
+      </p>
+
+      <p>
+        Realizamos diferentes actividades, asambleas, círculos de estudio y
+        discusión, cineforos, manifestaciones, etc. Puedes unirte y proponer
+        actividades que consideres ayudaran a la comunidad estudiantil.
+      </p>
+
+      <p>
+        Cooperando entre estudiantes podemos resolver los problemas que nos
+        aquejan. Estos problemas no han existido siempre ni tienen porque seguir
+        existiendo si nos organizamos para resolverlos.
+      </p>
+
+      <p>
+        <b
+          >¡Únete al Frente Estudiantil de Cooperación, ayuda al desarrollo del
+          movimiento estudiantil!</b
+        >
+      </p>
+
+      
+    </section>
+
+    <footer>
+      <img width="100" src="./img/fresco-title.png" /><br /><br />
+      <a href="">About us</a> · <a href="#">Biblioteca</a> ·
+      <a href="#">Noticias</a>
+    </footer>
+  </body>
 </html>

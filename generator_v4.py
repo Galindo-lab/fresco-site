@@ -91,6 +91,7 @@ class Proyect():
 
     def update_files(self):
         for section in self.sections:
+            print(section)
             section_path = Path(self.origin, section)
             for article_path in section_path.glob("*.md"):
                 article = Article(self.origin, self.destination,section,

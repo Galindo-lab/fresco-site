@@ -1,36 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content=
-  "width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#000000">
-  <link rel="stylesheet" href="style/style.css">
-  <link rel="icon" type="image/x-icon" href=
-  "./img/fresco-icon.png">
-  <title>${title}</title>
-</head>
-<body>
-  <header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="stylesheet" href="../style/style.css" />
+    <link rel="icon" type="image/x-icon" href="../img/fresco-icon.png" />
+    <title>${title}</title>
+  </head>
+  <body>
+    <nav>
+      <div class="container">
+        <a href="../index.html"><img width="120" src="../img/banner.png" /></a>
 
-    <div class="center" style="width: 100%; max-width: 900px; display: flex; align-items: center; margin: auto;">
-    <a href="index.html"><img width="120" src="./img/banner.png"></a>
+        <div class="contact">
+          <a href="https://fresco.neocities.org/info/00;00;00-Contacto-FRESCO.html"
+            ><img width="30" src="../img/contact.png" style="filter: invert(1)"
+          /></a>
+        </div>
+      </div>
+    </nav>
 
-    <div class="contact">
-      <a href="./not_found.html"><img width="30" src="./img/contact.png"
-      style="filter: invert(1);"></a>
-    </div>
-    </div>
-   
-    
-  </header>
+    <section>
+      ${content}
+    </section>
 
-  <section>
-    ${content}
-  </section>
-
-  publicado por ${author} el ${date}
-  
-  
+    <footer>
+      <img width="100" src="../img/fresco-title.png" /><br /><br />
+      <a href="">About us</a> ·
+      <a href="#">Biblioteca</a> ·
+      <a href="#">Noticias</a>
+    </footer>
   </body>
 </html>
+

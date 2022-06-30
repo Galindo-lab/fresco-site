@@ -6,7 +6,8 @@
     "defaultTemplate": "root.html",
     
     "published-sections": [
-        "info"
+        "info",
+        "minutas"
     ],
     "unpublished-sections": [
     ]
