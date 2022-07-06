@@ -18,9 +18,9 @@ gratuidad educativa, la democracia universitaria, el combate al machismo
 y otras exigencias. Conscientes de la necesidad de continuar
 organizándose y evitar la disolución que amenaza a los movimientos
 sociales, se propuso crear un grupo de redes sociales por donde
-comunicarnos. De ese grupo surgió nuestro Frente, que se rige
+comunicarnos. De ese grupo surgió nuestro Frente, que se rige 
 democráticamente por la asamblea de las personas estudiantes y egresadas
-que participan en el.
+que lo integran.
 
 ![Protesta del día del estudiante](./img/portada.jpg)
 
