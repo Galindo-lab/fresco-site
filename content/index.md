@@ -3,6 +3,9 @@ Authors: FRESCO
 Date: 4 de Julio de 2022
 Template: index
 
+
+
+
 <img src="./img/fresco-title.png"
      alt="FERSCO"
      style="width: 256px; justify-content: center;" />
