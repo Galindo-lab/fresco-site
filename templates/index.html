@@ -1,39 +1,50 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8"/>
+    <meta name="theme-color" content="#000000">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#000000" />
-    <link rel="stylesheet" href="./style/style.css" />
-    <link rel="stylesheet" href="./style/index.css" />
-    <link rel="icon" type="image/x-icon" href="./img/fresco-icon.png" />
-    <title>${title}</title>
+    <link href="./styles/style.css" rel="stylesheet"/>
+    <title>Frente Estudiantil de Cooperación</title>
   </head>
   <body>
-    <nav>
-      <div class="container">
-        <a href="./index.html"><img height="20" src="./img/fresco-icon-white.png" /></a>
-        
-        <a class="element-a" href="./minutas/2022.html">Minutas</a>
 
-        <div class="contact">
-          <a href="./info/contacto.html"
-            ><img height="30" src="./img/contact.png" style="filter: invert(1)"
-          /></a>
-        </div>
-      </div>
+    <banner>
+      <img src="./img/banner.png"/>
+    </banner>
+
+    <nav>
+      <content>
+        <a href="https://fresco.neocities.org">Inicio</a>
+        <a href="">Artículos</a>
+        <a href="./minutas/2022.html">Minutas</a>
+        
+        <spacer></spacer>
+        <a href="./info/contacto.html">Contacto</a>
+      </content>
     </nav>
+
+    <content>
+      <img alt="" class="rbanner" src="./img/anuncio.png"/>
+
+      <smain>
+        <img alt="" class="tbanner" src="./img/anuncio2.png"/>
+
+        ${content}
+        
+      </smain>
+
+    </content>
     
-    <section>
-      ${content}
-    </section>
 
     <footer>
-      <img width="100" src="./img/fresco-title.png" /><br /><br />
-      <a href="">About us</a> ·
-      <a href="#">Biblioteca</a> ·
-      <a href="#">Noticias</a>
+      <img alt="" src="./img/fresco-title.png"/>
+      <br>
+      <a href="">About us</a> · 
+      <a href="">Bibloteca</a> · 
+      <a href="">Noticias</a>
     </footer>
+      
+    
   </body>
 </html>
-

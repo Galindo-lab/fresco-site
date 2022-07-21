@@ -4,13 +4,7 @@ Date: 4 de Julio de 2022
 Template: index
 
 
-
-
-<img src="./img/fresco-title.png"
-     alt="FERSCO"
-     style="width: 256px; justify-content: center;" />
-
-## ¿Qué es el FRESCO?
+# ¿Qué es el FRESCO?
 El Frente Estudiantil de Cooperación es una organización estudiantil
 amplia cuyo propósito es concientizar, reunir y preparar a las y los
 estudiantes de Baja California para defender sus derechos ya ganadxos y
